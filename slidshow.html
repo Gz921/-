@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>轮播图</title>
+		<link rel="stylesheet" href="css/轮播图.css" type="text/css"/>
+		<script src="js/newMyJS.js"></script>
+	</head>
+	<body>
+		<div id="lgs">
+			<a class="lg" href="javascript:void(0)" style="display: block;"><img src="img/11.jpg"/></a>
+			<a class="lg" href="javascript:void(0)"><img src="img/23.jpg"/></a>
+			<a class="lg" href="javascript:void(0)"><img src="img/6.jpg"/></a>
+			<a class="lg" href="javascript:void(0)"><img src="img/8.jpg"/></a>
+			<div class="btn btn1" onclick="left()"><</div>
+			<div class="btn btn2" onclick="right()">></div>
+			<div id="tabs">
+				<img name="btn" src="img/bannerBtnOn.jpg" onclick="selecPic(0)"/>
+				<img name="btn" src="img/bannerBtn.jpg" onclick="selecPic(1)"/>
+				<img name="btn" src="img/bannerBtn.jpg" onclick="selecPic(2)"/>
+				<img name="btn" src="img/bannerBtn.jpg" onclick="selecPic(3)"/>
+			</div>
+		</div>
+	</body>
+</html>

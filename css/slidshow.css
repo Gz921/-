@@ -1,0 +1,64 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+#lgs{
+	margin: 10px auto;
+	width: 720px;
+	height: 480px;
+	position: relative;
+}
+.lg{
+	position: absolute;
+	display: none;
+}
+#lgs img{
+	width: 720px;
+	height: 480px;
+}
+#tabs{
+	display: inline;
+	position: absolute;
+	list-style: none;
+	left: 247px;
+	bottom: 10px;
+	padding: 5px;
+}
+/* cursor: pointer; 该属性定义了鼠标指针放在一个元素边界范围内时所用的光标形状;pointer:光标呈现为指示链接的指针（一只手）
+ * overflow：这个属性定义溢出元素内容区的内容会如何处理。如果元素中的内容超出了给定的宽度和高度属性，属性可以确定是否显示滚动条等行为。
+ * 如果值为 scroll，不论是否需要，用户代理都会提供一种滚动机制。
+ * 因此，有可能即使元素框中可以放下所有内容也会出现滚动条。
+ * 值为hidden:内容会被修剪，并且其余内容是不可见的。
+ * */
+#tabs img{
+	float: left;
+	text-align: center;
+	line-height: 20px;
+	width: 50px;
+	height: 3px;
+	cursor: pointer;  
+	/*overflow: hidden;*/
+	margin-right: 4px;
+}
+.btn{
+	position: absolute;
+	color: #fff;
+	top: 180px;
+	width: 40px;
+	height: 110px;
+	background-color: rgba(255,255,255,0.3);
+	font-size: 55px;
+	font-weight: 300;
+	text-align: center;
+	line-height: 110px;
+	border-radius: 5px;
+	margin: 0 5px;
+	cursor: pointer;
+}
+.btn2{
+	right: 0px;
+}
+.btn:hover{
+	background-color: rgba(0,0,0,0.7);
+}
+
